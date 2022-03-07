@@ -1,0 +1,44 @@
+@import "animate.css";
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background: rgb(199, 146, 40);
+  background: linear-gradient(
+    90deg,
+    rgba(199, 146, 40, 1) 10%,
+    rgba(246, 237, 95, 1) 50%,
+    rgba(199, 146, 40, 1) 90%
+  );
+}
+.greeting {
+  font-size: 60px;
+  font-weight: bold;
+  color: #895b22;
+  background: radial-gradient(
+    circle,
+    rgba(252, 176, 69, 1) 19%,
+    rgba(180, 111, 58, 1) 59%,
+    rgba(252, 155, 69, 0.8519782913165266) 82%
+  );
+  padding: 10px;
+}
+
+.alert {
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+  margin: 0;
+  padding: 0;
+  background: rgb(199, 40, 40);
+  background: radial-gradient(
+    circle,
+    rgba(199, 40, 40, 1) 26%,
+    rgba(201, 75, 75, 1) 65%,
+    rgba(252, 69, 69, 0.8519782913165266) 82%
+  );
+  box-shadow: 0px 0px 30px black;
+}
+
+.main {
+  overflow: hidden;
+}
