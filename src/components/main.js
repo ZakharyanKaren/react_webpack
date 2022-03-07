@@ -18,7 +18,7 @@ class Main extends React.Component {
   render() {
     const element = this.state.isClicked ? (
       <div>
-        <img src="../images/image.jpg" />
+        <img src="./images/image.jpg" />
       </div>
     ) : (
       <div className="animate__animated animate__fadeIn animate__delay-4s">

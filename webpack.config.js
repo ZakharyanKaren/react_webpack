@@ -5,7 +5,7 @@ module.exports = {
   mode: "development",
   entry: path.join(__dirname, "src", "index.js"),
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname),
   },
   module: {
     rules: [
@@ -18,7 +18,8 @@ module.exports = {
             presets: ["@babel/preset-env", "@babel/preset-react"],
           },
         },
-      },{
+      },
+      {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
